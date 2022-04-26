@@ -1,0 +1,81 @@
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container .banner{
+    background:linear-gradient(-55deg, purple 29%, black 29.1%, black 68%, black 68.1%);
+    border-radius: 20px;
+    margin:90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 10px #0005;
+    overflow: hidden;
+    width: 76%;
+}
+
+.banner-container .banner .store{
+    flex:1 1 250px;
+    padding:15px;
+    text-align: center;
+}
+
+.banner-container .banner .store img{
+    width:80%;
+}
+
+.banner-container .banner .content{
+    flex:1 1 700px;
+    text-align: center;
+    padding:10px;
+    text-transform: uppercase;
+}
+
+.banner-container .banner .content span{
+    color:#eee;
+    font-size: 30px;
+    
+}
+
+.banner-container .banner .content h3{
+    color:#fff;
+    font-size: 30px;
+}
+
+.banner-container .banner .content p{
+    color: white;
+    font-size: 30px;
+    padding:10px 0;
+}
+
+.banner-container .banner .content .btn{
+    display: block;
+    height:40px;
+    width:150px;
+    line-height: 20px;
+    background: black;
+    color: white;
+    margin:5px auto;
+    text-decoration: none;
+}
+
+.banner-container .banner .logo{
+    position: relative;
+    bottom: 10px;
+    padding:5px;
+    flex:1 1 250px;
+}
+
+.banner-container .banner .logo img{
+    float: left;
+    width:70%;
+}
+
+@media (max-width:768px){
+    .banner-container .banner .logo{
+        display: none;
+    }
+}
