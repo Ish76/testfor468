@@ -74,6 +74,28 @@
     width:70%;
 }
 
+.text{
+    background:linear-gradient(-55deg, purple 29%, black 29.1%, black 68%, black 68.1%);
+    border-radius: 20px;
+    margin:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 20px 10px #0005;
+    overflow: hidden;
+    width: 960px;
+    height: 90px;
+    padding: 50px;
+}
+
+.text h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:30px;
+    padding:10px;
+    color: #eee;
+}
 @media (max-width:768px){
     .banner-container .banner .logo{
         display: none;
